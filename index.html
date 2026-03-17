@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tara Kape Calamba — Fresh Brewed, Always</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ───────────────── NAV ───────────────── -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <img src="image/tklogo.png" alt="Tara Kape Calamba" style="height:48px;width:auto;object-fit:contain;">
+        <div class="logo-text">
+          <span class="logo-main">Tara Kape</span>
+          <span class="logo-sub">Calamba</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#location">Find Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#order" class="btn btn-outline-white">Order Now</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ───────────────── HERO ───────────────── -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">Now Open in Calamba</div>
+      <h1>Every Cup Tells<br /><span>a Story</span></h1>
+      <p>Freshly brewed Filipino coffee served with warm hospitality. Your neighborhood kape, elevated.</p>
+      <div class="hero-cta">
+        <a href="#menu" class="btn btn-red">Explore Menu</a>
+        <a href="#order" class="btn btn-outline-white">Order Online</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ───────────────── MARQUEE STRIP ───────────────── -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>Fresh Brewed Daily</span>
+      <span>•</span>
+      <span>Pastries</span>
+      <span>•</span>
+      <span>Cold Brew Favorites</span>
+      <span>•</span>
+      <span>Filipino Blends</span>
+      <span>•</span>
+      <span>Free Wi-Fi</span>
+      <span>•</span>
+      <span>Fresh Brewed Daily</span>
+      <span>•</span>
+      <span>Pastries</span>
+      <span>•</span>
+      <span>Cold Brew Favorites</span>
+      <span>•</span>
+      <span>Filipino Blends</span>
+      <span>•</span>
+      <span>Free Wi-Fi</span>
+      <span>•</span>
+    </div>
+  </div>
+
+  <!-- ───────────────── FEATURES ───────────────── -->
+  <section class="features">
+    <div class="container features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🫙</div>
+        <h3>House Recipes</h3>
+        <p>Signature blends crafted by our in-house baristas — you won't find these anywhere else.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🍞</div>
+        <h3>Fresh Baked Daily</h3>
+        <p>Ensaymada and pastries baked fresh each morning in our kitchen.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📍</div>
+        <h3>Heart of Calamba</h3>
+        <p>Conveniently located at Bucal Bypass — your perfect daily pitstop.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── MENU ───────────────── -->
+  <section class="menu-section" id="menu">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Our Menu</span>
+        <h2>What Would You Like Today?</h2>
+        <p>From rich espresso to iced refreshers — fresh brewed, always.</p>
+      </div>
+
+      <div class="menu-tabs" id="menu-tabs">
+        <button class="tab-btn active" data-tab="coffee">Coffee</button>
+        <button class="tab-btn" data-tab="specials">Specials</button>
+        <button class="tab-btn" data-tab="noncoffee">Non-Coffee</button>
+        <button class="tab-btn" data-tab="matcha">Matcha</button>
+        <button class="tab-btn" data-tab="refreshers">Refreshers</button>
+        <button class="tab-btn" data-tab="food">Food & Snacks</button>
+      </div>
+
+      <div class="menu-grid" id="menu-grid">
+
+        <!-- ── COFFEE ── -->
+        <div class="menu-item" data-cat="coffee">
+          <div class="menu-img product-img" style="background-image:url('image/drinks/amerikano.png')">
+            <div class="menu-badge">Popular</div>
+          </div>
+          <div class="menu-info">
+            <h4>Americano</h4>
+            <p>Bold espresso shots with hot water — clean and energizing.</p>
+            <div class="size-prices">
+              <span>12oz <strong>₱108</strong></span>
+              <span>16oz <strong>₱118</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item" data-cat="coffee">
+          <div class="menu-img" style="background-image:url('https://images.unsplash.com/photo-1485808191679-5f86510bd652?w=600&q=80')"></div>
+          <div class="menu-info">
+            <h4>Latte</h4>
+            <p>Smooth espresso with creamy steamed milk — classic and comforting.</p>
+            <div class="size-prices">
+              <span>12oz <strong>₱118</strong></span>
+              <span>16oz <strong>₱128</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item" data-cat="coffee">
+          <div class="menu-img product-img" style="background-image:url('image/drinks/spanish latte.jpg')">
+            <div class="menu-badge">Fan Fave</div>
+          </div>
+          <div class="menu-info">
+            <h4>Spanish Latte</h4>
+            <p>Espresso with sweet condensed milk and fresh steamed milk.</p>
+            <div class="size-prices">
+              <span>12oz <strong>₱148</strong></span>
+              <span>16oz <strong>₱158</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item" data-cat="coffee">
+          <div class="menu-img"></div>
+          <div class="menu-info">
+            <h4>White Mocha</h4>
+            <p>Espresso with rich white chocolate sauce and velvety steamed milk.</p>
+            <div class="size-prices">
+              <span>12oz <strong>₱148</strong></span>
+              <span>16oz <strong>₱158</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item" data-cat="coffee">
+          <div class="menu-img"></div>
+          <div class="menu-info">
+            <h4>Dark Mocha</h4>
+            <p>Intense espresso with dark chocolate sauce and steamed milk.</p>
+            <div class="size-prices">
+              <span>12oz <strong>₱148</strong></span>
+              <span>16oz <strong>₱158</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item" data-cat="coffee">
+          <div class="menu-img"></div>
+          <div class="menu-info">
+            <h4>Caramel Macchiato</h4>
+            <p>Vanilla-infused milk, espresso, and golden caramel drizzle.</p>
+            <div class="size-prices">
+              <span>12oz <strong>₱168</strong></span>
+              <span>16oz <strong>₱178</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <!-- ── SPECIALS ── -->
+        <div class="menu-item hidden" data-cat="specials">
+          <div class="menu-img product-img" style="background-image:url('image/drinks/biscoff latte.jpg')">
+            <div class="menu-badge">Special</div>
+          </div>
+          <div class="menu-info">
+            <h4>Biscoff Latte</h4>
+            <p>Espresso with creamy Biscoff spread, steamed milk, and cookie crumble.</p>
+            <div class="size-prices">
+              <span>12oz <strong>₱178</strong></span>
+              <span>16oz <strong>₱188</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="specials">
+          <div class="menu-img product-img" style="background-image:url('image/drinks/seasalt latte.jpg')">
+            <div class="menu-badge">Special</div>
+          </div>
+          <div class="menu-info">
+            <h4>Seasalt Latte</h4>
+            <p>Espresso and milk topped with a savory-sweet sea salt cream foam.</p>
+            <div class="size-prices">
+              <span>12oz <strong>₱178</strong></span>
+              <span>16oz <strong>₱188</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="specials">
+          <div class="menu-img"></div>
+          <div class="menu-info">
+            <h4>Barista Blend</h4>
+            <p>Our in-house signature blend — crafted to perfection by our baristas.</p>
+            <div class="size-prices">
+              <span>12oz <strong>₱158</strong></span>
+              <span>16oz <strong>₱168</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="specials">
+          <div class="menu-img product-img" style="background-image:url('image/drinks/honey oat latte.jpg')">
+            <div class="menu-badge">Best Seller</div>
+          </div>
+          <div class="menu-info">
+            <h4>Honey Oat Latte</h4>
+            <p>Espresso with oat milk and house-made honey syrup — smooth and natural.</p>
+            <div class="size-prices">
+              <span>12oz <strong>₱198</strong></span>
+              <span>16oz <strong>₱208</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <!-- ── NON-COFFEE ── -->
+        <div class="menu-item hidden" data-cat="noncoffee">
+          <div class="menu-img"></div>
+          <div class="menu-info">
+            <h4>Chocolate</h4>
+            <p>Rich, creamy chocolate drink — a crowd-pleaser for all ages.</p>
+            <div class="size-prices">
+              <span>12oz <strong>₱138</strong></span>
+              <span>16oz <strong>₱148</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="noncoffee">
+          <div class="menu-img"></div>
+          <div class="menu-info">
+            <h4>Strawberry</h4>
+            <p>Sweet and fruity strawberry milk drink, refreshing and smooth.</p>
+            <div class="size-prices">
+              <span>12oz <strong>₱138</strong></span>
+              <span>16oz <strong>₱148</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="noncoffee">
+          <div class="menu-img"></div>
+          <div class="menu-info">
+            <h4>Cereal Milk</h4>
+            <p>Creamy milk infused with the nostalgic flavor of your favorite cereal.</p>
+            <div class="size-prices">
+              <span>12oz <strong>₱138</strong></span>
+              <span>16oz <strong>₱148</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="noncoffee">
+          <div class="menu-img product-img" style="background-image:url('image/drinks/pistachio.jpg')">
+            <div class="menu-badge">Popular</div>
+          </div>
+          <div class="menu-info">
+            <h4>Pistachio</h4>
+            <p>Nutty and indulgent pistachio milk drink — unique and addicting.</p>
+            <div class="size-prices">
+              <span>12oz <strong>₱178</strong></span>
+              <span>16oz <strong>₱188</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="noncoffee">
+          <div class="menu-img"></div>
+          <div class="menu-info">
+            <h4>100% Pure Barley</h4>
+            <p>Natural, wholesome barley drink — healthy and satisfying.</p>
+            <div class="size-prices">
+              <span>12oz <strong>₱128</strong></span>
+              <span>16oz <strong>₱138</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <!-- ── MATCHA SERIES ── -->
+        <div class="menu-item hidden" data-cat="matcha">
+          <div class="menu-img product-img" style="background-image:url('image/drinks/matcha latte.jpg')">
+            <div class="menu-badge">Fan Fave</div>
+          </div>
+          <div class="menu-info">
+            <h4>Matcha Latte</h4>
+            <p>Premium ceremonial matcha whisked with fresh steamed milk.</p>
+            <div class="size-prices">
+              <span>12oz <strong>₱158</strong></span>
+              <span>16oz <strong>₱168</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="matcha">
+          <div class="menu-img product-img" style="background-image:url('image/drinks/dirty matcha.jpg')"></div>
+          <div class="menu-info">
+            <h4>Dirty Matcha</h4>
+            <p>Bold espresso shot poured over smooth matcha latte — two in one.</p>
+            <div class="size-prices">
+              <span>12oz <strong>₱168</strong></span>
+              <span>16oz <strong>₱178</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="matcha">
+          <div class="menu-img product-img" style="background-image:url('image/drinks/strawberry_matcha.png')"></div>
+          <div class="menu-info">
+            <h4>Matcha Strawberry</h4>
+            <p>Vibrant matcha layered with sweet strawberry milk — fruity and earthy.</p>
+            <div class="size-prices">
+              <span>12oz <strong>₱158</strong></span>
+              <span>16oz <strong>₱168</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="matcha">
+          <div class="menu-img product-img">
+            <img src="image/drinks/seasalt_matcha.png" alt="Seasalt Matcha" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%) rotate(360deg);max-height:100%;max-width:100%;object-fit:contain;">
+            <div class="menu-badge new">New</div>
+          </div>
+          <div class="menu-info">
+            <h4>Seasalt Matcha</h4>
+            <p>Earthy matcha with a savory sea salt cream foam on top.</p>
+            <div class="size-prices">
+              <span>12oz <strong>₱168</strong></span>
+              <span>16oz <strong>₱178</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <!-- ── REFRESHERS & ICE TEA ── -->
+        <div class="menu-item hidden" data-cat="refreshers">
+          <div class="menu-img"></div>
+          <div class="menu-info">
+            <h4>Strawberry Spitz</h4>
+            <p>Sparkling strawberry refresher — fizzy, fruity and ice cold.</p>
+            <div class="size-prices single">
+              <span>16oz <strong>₱138</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="refreshers">
+          <div class="menu-img" style="background-image:url('https://images.unsplash.com/photo-1542444459-81e3ea96ce32?w=600&q=80')"></div>
+          <div class="menu-info">
+            <h4>Green Apple Yakult</h4>
+            <p>Tangy green apple with probiotic Yakult — refreshing and healthy.</p>
+            <div class="size-prices single">
+              <span>16oz <strong>₱148</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="refreshers">
+          <div class="menu-img"></div>
+          <div class="menu-info">
+            <h4>Lemon Yakult</h4>
+            <p>Zesty lemon with probiotic Yakult — citrusy and light.</p>
+            <div class="size-prices single">
+              <span>16oz <strong>₱148</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="refreshers">
+          <div class="menu-img product-img" style="background-image:url('image/drinks/dragon fruit.jpg')">
+            <div class="menu-badge">Popular</div>
+          </div>
+          <div class="menu-info">
+            <h4>Dragon Fruit Rawr</h4>
+            <p>Bold and vibrant dragon fruit refresher — as striking as it tastes.</p>
+            <div class="size-prices single">
+              <span>16oz <strong>₱158</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="refreshers">
+          <div class="menu-img product-img" style="background-image:url('image/drinks/black_lemon_tea.png')"></div>
+          <div class="menu-info">
+            <h4>Black Lemon Tea</h4>
+            <p>Shaken iced black tea with a fresh squeeze of lemon. Refreshing!</p>
+            <div class="size-prices single">
+              <span>16oz <strong>₱138</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="refreshers">
+          <div class="menu-img product-img" style="background-image:url('image/drinks/hibiscus_tea.png')"></div>
+          <div class="menu-info">
+            <h4>Hibiscus Tea</h4>
+            <p>Deep ruby-red shaken iced hibiscus — floral, tart, and beautiful.</p>
+            <div class="size-prices single">
+              <span>16oz <strong>₱138</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <!-- ── FOOD & SNACKS ── -->
+
+        <!-- ── RICE MEALS SOLO SUBSECTION ── -->
+        <div class="menu-subsection hidden" data-cat="food">
+          <div class="subsection-line"></div>
+          <span>Rice Meals Solo</span>
+          <div class="subsection-line"></div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/rm/spam.jpg')"></div>
+          <div class="menu-info">
+            <h4>Spam Egg Rice</h4>
+            <p>Sliced SPAM with sunny-side-up egg and garlic rice. Classic silog!</p>
+            <div class="size-prices single">
+              <span><strong>₱190</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/rm/hungarian.jpg')"></div>
+          <div class="menu-info">
+            <h4>Hungarian Egg Rice</h4>
+            <p>Sweet Hungarian sausage, egg, and garlic rice — hearty and filling.</p>
+            <div class="size-prices single">
+              <span><strong>₱190</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/rm/burger steak.jpg')"></div>
+          <div class="menu-info">
+            <h4>Burger Steak Egg Rice</h4>
+            <p>Juicy burger steak patty with egg and rice — a satisfying meal deal.</p>
+            <div class="size-prices single">
+              <span><strong>₱190</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/rm/beef tapa.jpg')"></div>
+          <div class="menu-info">
+            <h4>Beef Tapa Rice</h4>
+            <p>Savory marinated beef tapa with sunny-side-up egg and garlic rice.</p>
+            <div class="size-prices single">
+              <span><strong>₱240</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/rm/pork tapa.jpg')"></div>
+          <div class="menu-info">
+            <h4>Pork Tapa Rice</h4>
+            <p>Tender marinated pork tapa with egg and garlic rice — a Filipino favorite.</p>
+            <div class="size-prices single">
+              <span><strong>₱220</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/rm/chicken hainanese.jpg')"></div>
+          <div class="menu-info">
+            <h4>Chicken Hainanese Solo</h4>
+            <p>Tender steamed chicken with ginger sauce, served with garlic rice.</p>
+            <div class="size-prices single">
+              <span><strong>₱250</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/rm/cream chicken.jpg')"></div>
+          <div class="menu-info">
+            <h4>Cream Chicken Rice</h4>
+            <p>Creamy chicken in rich white sauce, served solo with steamed rice.</p>
+            <div class="size-prices single">
+              <span><strong>₱290</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/rm/garlicmayofish.png')">
+            <div class="menu-badge new">New</div>
+          </div>
+          <div class="menu-info">
+            <h4>Garlic Mayo Fish Fillet</h4>
+            <p>Home-style crispy fish fillet with garlic mayo sauce, egg, and rice.</p>
+            <div class="size-prices single">
+              <span><strong>₱250</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <!-- ── RICE MEALS SHARING SUBSECTION ── -->
+        <div class="menu-subsection hidden" data-cat="food">
+          <div class="subsection-line"></div>
+          <span>Rice Meals Sharing</span>
+          <div class="subsection-line"></div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/rm sharing/big breakfast.jpg')"></div>
+          <div class="menu-info">
+            <h4>Big Breakfast</h4>
+            <p>Hash browns, toast, sausage, 2 eggs, mushrooms, baked beans & fresh salad — all in one plate.</p>
+            <div class="size-prices single">
+              <span><strong>₱298</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/rm sharing/chicken hainanese.jpg')"></div>
+          <div class="menu-info">
+            <h4>Chicken Hainanese</h4>
+            <p>Tender steamed chicken with ginger sauce. Good for 3–4 pax, served with 3 rice.</p>
+            <div class="size-prices single">
+              <span>3–4 pax &nbsp;<strong>₱590</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/rm sharing/cream mushroom.jpg')"></div>
+          <div class="menu-info">
+            <h4>Cream Chicken Mushroom</h4>
+            <p>Creamy chicken mushroom in rich sauce. Good for 3–4 pax, served with 3 rice.</p>
+            <div class="size-prices single">
+              <span>3–4 pax &nbsp;<strong>₱720</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <!-- ── PASTA SUBSECTION ── -->
+        <div class="menu-subsection hidden" data-cat="food">
+          <div class="subsection-line"></div>
+          <span>Pasta</span>
+          <div class="subsection-line"></div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/pasta/aglio olio.jpg')"></div>
+          <div class="menu-info">
+            <h4>Aglio Olio</h4>
+            <p>Classic Italian pasta tossed in garlic-infused olive oil with a hint of chili.</p>
+            <div class="size-prices single">
+              <span><strong>₱259</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/pasta/aligue.jpg')"></div>
+          <div class="menu-info">
+            <h4>Aligue Pasta</h4>
+            <p>Rich and creamy crab fat pasta — a bold Filipino-inspired indulgence.</p>
+            <div class="size-prices single">
+              <span><strong>₱350</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/pasta/chicken pesto.jpg')"></div>
+          <div class="menu-info">
+            <h4>Chicken Pesto</h4>
+            <p>Tender chicken strips tossed in fragrant basil pesto sauce.</p>
+            <div class="size-prices single">
+              <span><strong>₱370</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/pasta/tk signature.jpg')">
+            <div class="menu-badge">Signature</div>
+          </div>
+          <div class="menu-info">
+            <h4>TK Signature Pasta</h4>
+            <p>Our house special pasta — a unique Tara Kape blend you won't find anywhere else.</p>
+            <div class="size-prices single">
+              <span><strong>₱299</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/pasta/tuna.jpg')"></div>
+          <div class="menu-info">
+            <h4>Tuna Pasta</h4>
+            <p>Light and savory pasta with flaked tuna in a garlic tomato or cream base.</p>
+            <div class="size-prices single">
+              <span><strong>₱289</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <!-- ── PASTRIES SUBSECTION ── -->
+        <div class="menu-subsection hidden" data-cat="food">
+          <div class="subsection-line"></div>
+          <span>Pastries</span>
+          <div class="subsection-line"></div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/pastries/classic cheesecake.jpg')"></div>
+          <div class="menu-info">
+            <h4>Classic Cheesecake</h4>
+            <p>Rich and creamy classic cheesecake on a buttery graham crust — timeless.</p>
+            <div class="size-prices single">
+              <span><strong>₱200</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/pastries/biscoff.jpg')"></div>
+          <div class="menu-info">
+            <h4>Biscoff Cheesecake</h4>
+            <p>Velvety cheesecake layered with Biscoff spread and cookie crumble topping.</p>
+            <div class="size-prices single">
+              <span><strong>₱210</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/pastries/blueberry.jpg')"></div>
+          <div class="menu-info">
+            <h4>Blueberry Cheesecake</h4>
+            <p>Creamy cheesecake topped with sweet and tangy blueberry compote.</p>
+            <div class="size-prices single">
+              <span><strong>₱200</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/pastries/oreo.jpg')"></div>
+          <div class="menu-info">
+            <h4>Oreo Cheesecake</h4>
+            <p>Cheesecake on an Oreo crust, topped with crushed Oreo cookies.</p>
+            <div class="size-prices single">
+              <span><strong>₱210</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/pastries/carrot.jpg')"></div>
+          <div class="menu-info">
+            <h4>Carrot Cake</h4>
+            <p>Moist spiced carrot cake with cream cheese frosting — warm and comforting.</p>
+            <div class="size-prices single">
+              <span><strong>₱210</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <!-- ── APPETIZERS SUBSECTION ── -->
+        <div class="menu-subsection hidden" data-cat="food">
+          <div class="subsection-line"></div>
+          <span>Appetizers</span>
+          <div class="subsection-line"></div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/appetizer/bbq fries.jpg')"></div>
+          <div class="menu-info">
+            <h4>BBQ Fries</h4>
+            <p>Crispy golden fries tossed in smoky BBQ seasoning — bold and addicting.</p>
+            <div class="size-prices single">
+              <span><strong>₱150</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/appetizer/cheese fries.jpg')"></div>
+          <div class="menu-info">
+            <h4>Cheese Fries</h4>
+            <p>Golden fries loaded with savory cheese seasoning — perfectly cheesy.</p>
+            <div class="size-prices single">
+              <span><strong>₱150</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/appetizer/sour cream fries.jpg')"></div>
+          <div class="menu-info">
+            <h4>Sour N' Cream Fries</h4>
+            <p>Light and tangy sour cream dusted fries — a crowd favorite.</p>
+            <div class="size-prices single">
+              <span><strong>₱150</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/appetizer/nuggetsfries.jpg')"></div>
+          <div class="menu-info">
+            <h4>Nuggets &amp; Fries</h4>
+            <p>Crispy golden nuggets paired with seasoned fries — a perfect combo snack.</p>
+            <div class="size-prices single">
+              <span><strong>₱250</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/appetizer/chickenpoppers.jpg')"></div>
+          <div class="menu-info">
+            <h4>Chicken Poppers</h4>
+            <p>Bite-sized crispy chicken poppers served with fries and dipping sauce.</p>
+            <div class="size-prices single">
+              <span><strong>₱240</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/appetizer/spam sandwich.jpg')"></div>
+          <div class="menu-info">
+            <h4>Spam Sandwich</h4>
+            <p>Toasted sandwich packed with SPAM, egg, fresh veggies, and sauce.</p>
+            <div class="size-prices single">
+              <span><strong>₱240</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-item hidden" data-cat="food">
+          <div class="menu-img product-img" style="background-image:url('image/appetizer/tuna sandwich.jpg')"></div>
+          <div class="menu-info">
+            <h4>Tuna Sandwich</h4>
+            <p>Grilled tuna sandwich with egg, lettuce, and a side of pickles.</p>
+            <div class="size-prices single">
+              <span><strong>₱220</strong></span>
+            </div>
+            <div class="menu-footer">
+            </div>
+          </div>
+        </div>
+
+      </div><!-- end menu-grid -->
+
+      <!-- ADD-ONS -->
+      <div class="addons-section">
+        <h3>Add-Ons</h3>
+        <div class="addons-grid">
+          <div class="addon-item"><span>Espresso Shot</span><strong>₱40</strong></div>
+          <div class="addon-item"><span>Sea Salt Cream</span><strong>₱30</strong></div>
+          <div class="addon-item"><span>Sauce / Syrup</span><strong>₱30</strong></div>
+          <div class="addon-item"><span>Sub Oat</span><strong>₱50</strong></div>
+          <div class="addon-item"><span>330ml Bottled Water</span><strong>₱20</strong></div>
+          <div class="addon-item"><span>500ml Bottled Water</span><strong>₱30</strong></div>
+        </div>
+      </div>
+
+      <div class="menu-cta">
+        <a href="#order" class="btn btn-red">Order Now</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ───────────────── ABOUT ───────────────── -->
+  <section class="about-section" id="about">
+    <div class="container about-inner">
+      <div class="about-image">
+        <div class="about-visual">
+          <div class="about-img-main"></div>
+        </div>
+      </div>
+      <div class="about-text">
+        <span class="section-label">Our Story</span>
+        <h2>Brewed with<br />Love Since 2025</h2>
+        <p>Tara Kape started with a simple dream — to create a coffee shop where Calambenos could gather, relax, and enjoy great coffee without pretension. Our name says it all: <em>"Tara, kape!"</em> — Come, let's have coffee.</p>
+        <p>We partner with small-scale Filipino coffee farmers and bakers to bring you authentic, locally crafted flavors. Every cup you enjoy supports a Filipino livelihood.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">1K+</span>
+            <span class="stat-label">Happy Customers</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">30+</span>
+            <span class="stat-label">Menu Items</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">1</span>
+            <span class="stat-label">Years Serving</span>
+          </div>
+        </div>
+        <a href="#menu" class="btn btn-red">See Our Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── TESTIMONIALS ───────────────── -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Reviews</span>
+        <h2>What Our Customers Say</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card featured">
+          <div class="stars">★★★★★</div>
+          <p>"I absolutely love the way they make their coffee you can tell they put real care into every cup. The owner and staff are super cool and friendly, and they even remember their regulars, which makes you feel right at home. The food? Delicious 🤤🤤. The vibe? 10/10. You can totally work here because it's cozy and comfortable inside, with a nice, clean bathroom (a big plus!). Outside is also a perfect spot to chill and hang out with friends. If you're looking for great coffee, good food, and good vibes in Calamba TARA KAPE is the spot. Highly recommended!"</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar" style="background:#8B7355;">A</div>
+            <div>
+              <strong>AntoniaAnne Juaneza</strong>
+              <span>Google Review</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card featured">
+          <div class="stars">★★★★★</div>
+          <p>"The owners are very friendly 👌🏼 Love that this place offers my favorite drink, coffee and has a relaxing outdoor setup with a cozy, campy vibe. Perfect combo!
+
+Your regular customer,
+Bogs 😝"</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar" style="background:#2c6b2f;">N</div>
+            <div>
+              <strong>Ninacelle Soriano</strong>
+              <span>Google Review</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card featured">
+          <div class="stars">★★★★★</div>
+          <p>"Had the friendliest and coziest vibe in all coffee shops we've been to, with Tara, Kape. Drinks and food are topnotch! Best drink I've had so far was their Biscoff Latte with Sea salt cream (Must try!). Place is just superb with the mix of campy aesthetics. Will always choose to go back here, definitely with friends and fams."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar" style="background:#d4800a;">K</div>
+            <div>
+              <strong>krishna echano</strong>
+              <span>Google Review</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── ORDER CTA ───────────────── -->
+  <section class="order-cta" id="order">
+    <div class="container order-cta-inner">
+      <h2>Order Online,<br />Pick Up Fresh</h2>
+      <p>Skip the wait. Order through our platform or call us ahead and we'll have your kape ready when you arrive.</p>
+      <div class="order-buttons">
+        <a href="tel:+6349123456" class="btn btn-red">📞 Call to Order</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd61COWX9vAk7kyL9peIoZkVfYVr1CAUw2z_gFuRt6DpSLPBA/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" class="btn btn-red">📝 Order via Google Forms</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── LOCATION ───────────────── -->
+  <section class="location-section" id="location">
+    <div class="container location-inner">
+      <div class="location-info">
+        <span class="section-label">Find Us</span>
+        <h2>Visit Us in Calamba</h2>
+        <div class="location-details">
+          <div class="loc-item">
+            <span class="loc-icon">📍</span>
+            <div>
+              <strong>Address</strong>
+              <p>Tara Kape Calamba, Brgy. 0212 Greenfield, Bucal Bypass Rd, Calamba, 4027 Laguna</p>
+            </div>
+          </div>
+          <div class="loc-item">
+            <span class="loc-icon">🕐</span>
+            <div>
+              <strong>Hours</strong>
+              <p>Monday – Sunday<br />10:00 AM – 12:00 MN</p>
+            </div>
+          </div>
+          <div class="loc-item">
+            <span class="loc-icon">📞</span>
+            <div>
+              <strong>Phone</strong>
+              <p>(049) 123-4567<br />0917-000-0000</p>
+            </div>
+          </div>
+          <div class="loc-item">
+            <span class="loc-icon">📧</span>
+            <div>
+              <strong>Email</strong>
+              <p>hello@tarakape.ph</p>
+            </div>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="https://www.facebook.com/TaraKapeCalamba" target="_blank" class="social-btn facebook">Facebook</a>
+          <a href="https://www.instagram.com/tarakape.calamba?fbclid=IwY2xjawQkxNpleHRuA2FlbQIxMABicmlkETFlMHc5NDFZQ1dCM0c2R2Vsc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHkVdNAQzJkyAu_oXy4tNBpk3AQ27ks3QL32R4In4FewDDkxlGz9WoupAatOj_aem_nwTpFnD7iGlEBScYaoTD4Q" target="_blank" class="social-btn instagram">Instagram</a>
+        </div>
+      </div>
+      <div class="location-map">
+        <div class="map-placeholder">
+          <div class="map-pin">📍</div>
+          <p>Tara Kape Calamba</p>
+          <span>Calamba City, Laguna</span>
+          <a href="https://www.google.com/maps/dir//Tara+Kape+Calamba,+Brgy,+0212+Greenfield,+Bucal+Bypass+Rd,+Calamba,+4027+Laguna/@14.1824328,121.1594588,17z/data=!4m17!1m7!3m6!1s0x33bd633275c75599:0xa10aaa682ad75136!2sTara+Kape+Calamba!8m2!3d14.1824328!4d121.1594588!16s%2Fg%2F11wn55qxwm!4m8!1m0!1m5!1m1!1s0x33bd633275c75599:0xa10aaa682ad75136!2m2!1d121.1595254!2d14.1824622!3e0?entry=ttu&g_ep=EgoyMDI2MDMxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="btn btn-red map-btn">Open in Maps</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────── FOOTER ───────────────── -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo logo-footer">
+          <img src="image/tklogo.png" alt="Tara Kape Calamba" style="height:56px;width:auto;object-fit:contain;">
+        </a>
+        <p>Your neighborhood coffee shop in the heart of Calamba City. Freshly brewed, always welcoming.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#order">Order Online</a></li>
+          <li><a href="#location">Location</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Our Menu</h4>
+        <ul>
+          <li><a href="#">Hot Coffee</a></li>
+          <li><a href="#">Cold Drinks</a></li>
+          <li><a href="#">Breakfast Meals</a></li>
+          <li><a href="#">Pastries & Breads</a></li>
+        </ul>
+      </div>
+      <div class="footer-newsletter">
+        <h4>Stay Updated</h4>
+        <p>Get notified about new items, promos, and events.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="your@email.com" />
+          <button type="submit" class="btn btn-red">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 Tara Kape Calamba. All rights reserved. Made with ☕ in Calamba, Laguna.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ───────────────── CART TOAST ───────────────── -->
+  <div class="cart-toast" id="cart-toast">
+    <span class="toast-icon">✓</span>
+    <span id="toast-message">Item added!</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
